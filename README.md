@@ -13,7 +13,10 @@ Build and compare five supervised classification models to classify breast tumou
 - Class counts: 357 benign (62.74%) and 212 malignant (37.26%)
 - No missing values in the supplied dataset
 
-## c. Models used and evaluation
+## c. Github Repository Link
+https://github.com/ron-daniel1/ML-BrestCancerImageprocessing.git
+
+## d. Models used and evaluation
 
 The dataset was split using an 80:20 stratified train-test split (`random_state=42`). StandardScaler was used in pipelines for Logistic Regression, KNN and SVM. Decision Tree and Gaussian Naive Bayes were fitted without scaling. The models were evaluated on the same held-out test set of 114 records.
 
